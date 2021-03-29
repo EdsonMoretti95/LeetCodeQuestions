@@ -6,6 +6,12 @@ namespace LeetCodeQuestions
 {
     /// <summary>
     /// Given the head of a singly linked list, reverse the list, and return the reversed list.
+    /// 
+    /// The thing to remember about reversing a linked list is:
+    /// - Save the NextElement
+    /// - Point the current element to previous
+    /// - Update the Previous Element to the Current
+    /// - Update the current element to be the NextElement saved previously
     /// </summary>
     class ReverseLinkedList
     {
@@ -60,17 +66,6 @@ namespace LeetCodeQuestions
             head.next = null;
 
             return reversed;            
-        }
-    }
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
         }
     }
 }

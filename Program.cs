@@ -9,7 +9,9 @@ namespace LeetCodeQuestions
             //NumberOfIslands.Solve();
             //PascalsTriangle.Solve();
             //ContainsDuplicate.Solve();
-            ReverseLinkedList.Solve();
+            //ReverseLinkedList.Solve();
+            //NAryTreePostorderTraversal.Solve();
+            PalindromeLinkedList.Solve();
         }
     }
 }
