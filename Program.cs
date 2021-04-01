@@ -11,7 +11,11 @@ namespace LeetCodeQuestions
             //ContainsDuplicate.Solve();
             //ReverseLinkedList.Solve();
             //NAryTreePostorderTraversal.Solve();
-            PalindromeLinkedList.Solve();
+            //PalindromeLinkedList.Solve();
+            //BasicCalculatorII.Solve();
+            //TwoSums.Solve();
+            //ReverseInteger.Solve();
+            RomanToDecimal.Solve();
         }
     }
 }
